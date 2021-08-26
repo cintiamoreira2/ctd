@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.titulo-principal{
+    color:#f700c1;
+    font-family: 'Roboto', sans-serif, Arial;
+}
+.conteudo-principal {
+
+    height:300px ;
+    background-image: url('https://negociodecozinha.com.br/wp-content/uploads/2017/12/como-fazer-donuts-para-vender-700x500.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:initial
+}

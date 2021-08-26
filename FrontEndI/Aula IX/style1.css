@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.titulo-principal{
+    color: white;
+    font-family: 'Roboto', sans-serif, Arial;
+}
+.body{
+    background-color: #131313;
+
+}
+.media-picture {
+
+    height: 400px;
+    background-image: url('https://poltronanerd.com.br/wp-content/uploads/2017/03/how-i-met-your-mother.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:initial
+} 
