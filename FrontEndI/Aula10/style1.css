@@ -1,0 +1,43 @@
+/*checkpointI*/
+h1 {
+    padding: 10px 20px 10px 20px;
+}
+
+img {
+    width: 1280px;
+    height: 720px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    text-align: center;
+    /* hack para o IE */
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
+
+video {
+    width: 1280px;
+    height: 720px;
+}
+
+#tudo {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+    /* "remédio" para o hack do IE */
+}
+
+#conteudo {
+    padding: 5px;
+    background-color: #eeeeee;
+}
+
+a {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}

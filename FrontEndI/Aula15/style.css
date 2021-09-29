@@ -1,0 +1,97 @@
+/* .button{
+border: 0;
+padding: 12px 24px;
+background-color: salmon;
+color:white;
+border-radius: 12px;
+transition-duration: 1s;
+display:block;
+width:fit-content;
+text-decoration: none;
+
+}
+button:hover{
+    border-radius: 24px;
+    background-color: violet;
+}
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+input:focus{
+    background-color: rgb(255, 255, 255);
+    transition-duration: .6s;
+}
+
+ul{
+    list-style:none;
+
+}
+ul li{
+    margin:12px0;
+
+}
+ul li:nth-child(2){
+    color: red;
+} */
+
+
+
+div.menu-bar ul ul {
+    display: none;
+  }
+  
+  div.menu-bar li:hover > ul {
+    display: block;
+  }
+
+  /* Fazendo odas as letras dos paragrados maior e vermelha */
+
+p::first-letter {  /* Use :first-letter if você precise muito de compatibilidade com IE 8 */
+    color: red;
+    font-size: 130%;
+  }
+
+  elemento:focus { ... }
+
+  /* qualquer elemento "checkable" */
+:checked {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* qualquer elemento radio */
+  input[type="radio"]:checked {
+    margin-left: 25px;
+  }
+  
+  /* apenas elementos checkbox */
+  input[type="checkbox"]:checked {
+    display: none;
+  }
+  
+  /* apenas elementos option */
+  option:checked {
+    color: red;
+  }
+
+  /* Seleciona um a cada quatro elementos
+   de qualquer grupo de elementos irmãos,
+   começando do quarto elemento (4, 8 12, etc.). */
+:nth-child(4n) {
+    color: lime;
+  }
+
+
+  /* Selects any disabled <input> */
+input:disabled {
+    background: #ccc;
+  }
+
+  /* Seleciona qualquer <input> ativado */
+input:enabled {
+    color: blue;
+  }
