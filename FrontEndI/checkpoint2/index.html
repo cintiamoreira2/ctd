@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<form class="formulario" method="post"> 
+    <img src="São_roque-removebg-preview.png" alt="">
+    <h1> Envie uma mensagem preenchendo o formulário abaixo</h1>
+    <fieldset>
+    <legend>Dados Pessoais:</legend>
+    <div class="field">
+        <label for="nome">Seu Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+    </div>
+    
+    <div class="field">
+        <label for="telefone">Seu Telefone:</label>
+        <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+    </div>
+
+    <div class="field">
+        <label for="email">Seu E-Mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+    </div>        
+    <div class="field radiobox">
+        <span>Você é maior de idade?</span>
+        <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+        <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+    </div>
+    <div class="field">
+        <label for="mensagem">Sua mensagem:</label>
+        <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>Pesquisa:</legend>
+    <div>
+        <label for="person">Quais seus interesses na cidade?</label>
+    </div>
+    <div>
+        <input type="radio" name="option" id="option">
+        <label for="option">Turista</label>
+        <input type="radio" name="option" id="option2">
+        <label for="option2">Residente</label>
+        <input type="radio" name="option" id="option3">
+        <label for="option3">Estudante</label>
+    </div>
+  <div>
+    <label for="point">Pontos Turisticos</label>
+    <input required type="search" list="points" name="point" id="point">
+    <datalist id="points">
+        <option value="Sky Mountain Park">
+        <option value="Morro do Saboo">
+        <option value="Capela de Santo Antônio">
+        <option value="Brasital">
+        <option value="Catarina Outlet">
+        <option value="Roteiro do Vinho">
+    </datalist>
+</div>
+</fieldset>
+
+    <input type="submit" name="acao" value="Enviar">
+    <button type="reset">Limpar o formulário</button>
+</form>
+</body>
+</html>
